@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/item_curstom_goods_left_layout"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="20"
+                android:id="@+id/name_item"
+                android:textSize="20dp"
+                android:textColor="@color/goods_name_color"
+                android:text="红烧辣子鸡丁蛋炒饭大蒜咸肉好吃很"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:ems="15"
+                android:id="@+id/price_item"
+                android:textSize="15dp"
+                android:textColor="@color/price_item_color"
+                android:text="单价: 10元"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_curstom_goods_right_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/item_curstom_goods_left_layout"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:visibility="visible"
+                android:id="@+id/minus_item_number"
+                android:src="@mipmap/minus_1"
+                android:layout_marginTop="13dp"
+                android:layout_toLeftOf="@+id/item_number"
+                android:scaleType="centerInside"
+                />
+
+            <TextView
+                android:id="@+id/item_number"
+                android:text="0"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:visibility="visible"
+                android:layout_toLeftOf="@+id/plus_item_number"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:visibility="visible"
+                android:id="@+id/plus_item_number"
+                android:src="@mipmap/plus_1"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerInside"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        />
+
+</LinearLayout>

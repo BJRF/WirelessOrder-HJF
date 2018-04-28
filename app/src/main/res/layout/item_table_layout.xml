@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_table_text"
+            android:text="桌号: "
+            android:textSize="30sp"
+            android:textColor="@color/color_table_index"
+            android:gravity="center"
+            />
+
+        <!-- 桌号 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_table_index"
+            android:text="8"
+            android:textSize="30sp"
+            android:textColor="@color/color_table_index"
+            android:gravity="center"
+            />
+        <ImageButton
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:id="@+id/item_dinner_speech"
+            android:gravity="center"
+            android:background="@mipmap/is"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <!-- 点餐按钮 -->
+        <Button
+            android:id="@+id/dinner_start"
+            android:layout_height="60dp"
+            android:layout_width="160dp"
+            android:text="点餐"
+            android:textSize="35sp"
+            android:textColor="@color/color_dinner_design"
+            android:background="@mipmap/rc_9"
+            android:layout_margin="5dp"
+            />
+
+        <!-- 结账 -->
+        <Button
+            android:id="@+id/dinner_account"
+            android:layout_height="60dp"
+            android:layout_width="160dp"
+            android:text="结算"
+            android:textSize="35sp"
+            android:textColor="@color/red"
+            android:background="@mipmap/r9_9"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_table_index">#8470FF</color>
+    <color name="color_dinner_design">#8B8989</color>
+    <color name="color_table_clicked">#D1EEEE</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000</color>
+    <color name="gray">#CCCCCCCC</color>
+
+    <color name="goods_name_color">#000000</color>
+    <color name="price_item_color">#CC0000</color>
+</resources>

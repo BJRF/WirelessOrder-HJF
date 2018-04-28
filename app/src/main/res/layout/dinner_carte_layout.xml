@@ -1,0 +1,16 @@
+<com.hujunfei.library.DinnerCarteMenu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dinner_carte_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:menuTextSize="20dp"
+    app:textUnselectedColor="@color/drop_down_unselected"
+    app:textSelectedColor="@color/drop_down_selected"
+    app:dividerColor="@color/gray"
+    app:underlineColor="@color/gray"
+    app:menuSelectedIcon="@mipmap/drop_down_selected_right_icon"
+    app:maskColor="@color/mask_color"
+    app:menuBackgroundColor="@color/white"
+    app:menuUnselectedIcon="@mipmap/drop_down_unselected_left_icon"
+    />
